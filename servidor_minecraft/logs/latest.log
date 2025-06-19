@@ -62,3 +62,6 @@
 [19Jun2025 00:17:53.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Spardaxxx joined the game
 [19Jun2025 00:19:26.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Spardaxxx was slain by Zombie
 [19Jun2025 00:19:58.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Spardaxxx was slain by Zombie
+[19Jun2025 00:33:28.506] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spardaxxx lost connection: Disconnected
+[19Jun2025 00:33:28.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Spardaxxx left the game
+[19Jun2025 00:34:28.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
