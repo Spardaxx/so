@@ -1,67 +1,40 @@
-[19Jun2025 00:11:10.843] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
-[19Jun2025 00:11:10.856] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04
-[19Jun2025 00:11:10.856] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 21.0.7 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[19Jun2025 00:11:11.126] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
-[19Jun2025 00:11:11.418] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///workspaces/so/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
-[19Jun2025 00:11:11.985] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[19Jun2025 00:11:15.046] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
-[19Jun2025 00:11:32.761] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 55.0.21, for MC 1.21.5 with MCP 20250325.155543
-[19Jun2025 00:11:32.764] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v55.0.21 Initialized
-[19Jun2025 00:11:32.881] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[19Jun2025 00:11:34.837] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[19Jun2025 00:11:36.185] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 55.0.21 Target: 55.0.23
-[19Jun2025 00:11:37.262] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19Jun2025 00:11:44.483] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1373 recipes
-[19Jun2025 00:11:44.547] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1484 advancements
-[19Jun2025 00:11:45.261] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.5
-[19Jun2025 00:11:45.264] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[19Jun2025 00:11:45.265] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[19Jun2025 00:11:45.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[19Jun2025 00:11:46.008] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[19Jun2025 00:11:46.275] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[19Jun2025 00:11:46.395] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19Jun2025 00:11:46.396] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[19Jun2025 00:11:46.396] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19Jun2025 00:11:46.398] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[19Jun2025 00:11:46.726] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[19Jun2025 00:11:47.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[19Jun2025 00:12:01.009] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jun2025 00:12:01.018] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jun2025 00:12:01.024] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jun2025 00:12:01.025] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jun2025 00:12:01.028] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jun2025 00:12:01.029] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jun2025 00:12:01.036] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jun2025 00:12:01.041] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jun2025 00:12:01.041] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jun2025 00:12:01.041] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jun2025 00:12:01.042] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jun2025 00:12:01.048] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jun2025 00:12:01.052] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jun2025 00:12:01.054] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jun2025 00:12:01.055] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jun2025 00:12:01.055] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jun2025 00:12:01.055] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jun2025 00:12:01.065] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jun2025 00:12:01.072] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jun2025 00:12:01.073] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jun2025 00:12:01.074] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jun2025 00:12:01.077] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jun2025 00:12:01.077] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jun2025 00:12:01.077] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jun2025 00:12:01.078] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jun2025 00:12:01.078] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jun2025 00:12:01.078] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jun2025 00:12:01.369] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jun2025 00:12:01.872] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 59%
-[19Jun2025 00:12:02.019] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 14153 ms
-[19Jun2025 00:12:02.021] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (15.479s)! For help, type "help"
-[19Jun2025 00:12:02.147] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[19Jun2025 00:13:02.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
-[19Jun2025 00:17:53.895] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Spardaxxx[/127.147.6.139:58851] logged in with entity id 72 at (-7.259685455189824, 79.0, 0.5504983770358584)
-[19Jun2025 00:17:53.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Spardaxxx joined the game
-[19Jun2025 00:19:26.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Spardaxxx was slain by Zombie
-[19Jun2025 00:19:58.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Spardaxxx was slain by Zombie
-[19Jun2025 00:33:28.506] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spardaxxx lost connection: Disconnected
-[19Jun2025 00:33:28.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Spardaxxx left the game
-[19Jun2025 00:34:28.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[01:57:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:57:24] [ServerMain/INFO]: No existing world data, creating new world
+[01:57:25] [ServerMain/INFO]: Loaded 1373 recipes
+[01:57:25] [ServerMain/INFO]: Loaded 1484 advancements
+[01:57:25] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[01:57:25] [Server thread/INFO]: Loading properties
+[01:57:25] [Server thread/INFO]: Default game type: SURVIVAL
+[01:57:25] [Server thread/INFO]: Generating keypair
+[01:57:26] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:57:26] [Server thread/INFO]: Using epoll channel type
+[01:57:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:57:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:57:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:57:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:57:26] [Server thread/INFO]: Preparing level "world"
+[01:57:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:57:40] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[01:57:41] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[01:57:41] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[01:57:42] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[01:57:42] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[01:57:43] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[01:57:43] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[01:57:44] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[01:57:44] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[01:57:45] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[01:57:45] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[01:57:46] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[01:57:46] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[01:57:47] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[01:57:47] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[01:57:48] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[01:57:48] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[01:57:49] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[01:57:49] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[01:57:50] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[01:57:50] [Worker-Main-1/INFO]: Preparing spawn area: 38%
+[01:57:50] [Server thread/INFO]: Time elapsed: 10198 ms
+[01:57:50] [Server thread/INFO]: Done (24.381s)! For help, type "help"
+[01:58:50] [Server thread/INFO]: Server empty for 60 seconds, pausing
